@@ -3,8 +3,6 @@
 
 > Experience is the mother of wisdom.
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
-
 Translation
 ---------------
 
