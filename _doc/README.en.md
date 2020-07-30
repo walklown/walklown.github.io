@@ -1,14 +1,14 @@
-[冬旅的博客](https://walklown.github.io/)
+[Walklown's Blog](https://walklown.github.io/)
 ================================
 
-> 实践出真知。
+> Experience is the mother of wisdom.
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
-其他语言
+Translation
 ---------------
 
-- [英文](https://github.com/walklown/walklown.github.io/blob/master/_doc/README.zh.md)
+- [en](https://github.com/walklown/walklown.github.io/blob/master/_doc/README.md)
 
 
 License
