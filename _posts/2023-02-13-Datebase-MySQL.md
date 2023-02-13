@@ -97,12 +97,6 @@ tags:
 
 2）MySQL的InnDB引擎中，通过Next-Key锁，使得RR隔离级别下并不会出现幻影读。
 
-```
-事务的原子性是通过 undo log 来实现的
-事务的持久性性是通过 redo log 来实现的
-事务的隔离性是通过 (读写锁+MVCC)来实现的
-```
-
 #### MySQL InnoDB 事物隔离机制
 
 ##### [InnoDB的锁](https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html)
