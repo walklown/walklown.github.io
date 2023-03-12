@@ -48,7 +48,7 @@ https://openjdk.org/jeps/261
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JDK9新增了模块化特性，包的目录结构发生了变化，不再使用系统库、Ext库结构。类加载器也因此进行了相应的调整，不再需要区分`BootstrapClassLoader`、`ExtClassLoader`。
 
-![JDK ClassLoader.jpg](./Images/JDK%20ClassLoader.jpg)
+![JDK ClassLoader.jpg](../img/Images/JDK%20ClassLoader.jpg)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JDK11中，BootClassLoader在库代码和虚拟机中都有实现，但为了兼容性，它在 ClassLoader API 中仍由 null 表示。 它定义了核心 Java SE 和 JDK 模块。  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扩展类加载器（extension class loader）不再是 URLClassLoader 的实例，而是内部类的实例。 它不再通过扩展机制加载类，该机制已被 JEP 220 删除。但是，它确实定义了选定的 Java SE 和 JDK 模块，下面将详细介绍。 在其新角色中，此加载器称为Platform ClassLoader，可通过新的 ClassLoader::getPlatformClassLoader 方法使用，Java SE 平台 API 规范也需要它。  
